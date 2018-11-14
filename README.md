@@ -44,7 +44,7 @@ Our recommendations to be successful on this bootcamp are:
 
 >Lius Sala Espiell
 
->Gonzalo San Martin
+>[Gonzalo San Martin](https://www.linkedin.com/in/gonsanmartin/)
 
 >[Juan Pablo Pizarro](https://www.linkedin.com/in/juanpablopizarro/)
 
