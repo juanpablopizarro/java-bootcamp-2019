@@ -48,6 +48,21 @@ Gonzalo San Martin
 
 
 ## First week: The Mission.. REST
+Grab a coffee cup and let's start!! ([pre requisites](./first-week-pre-requisites.md)
+
+### What a hell is a service and even worst.. an API!
+Service according to W3C:
+> Service is a software system designed to support interoperable machine-to-machine interaction over a network
+
+And Application Program Interface (API) according wikipedia:
+>In computer programming an **application programming interface** (**API**) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components. A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.
+
+We will define API and implement them using REST. According stackoverflow:
+> **REST** stands for Representational State Transfer. (It is sometimes spelled "**ReST**".) It relies on a stateless, client-server, cacheable communications protocol -- and in virtually all cases, the **HTTP** protocol is used.**REST** is an architecture style for designing networked applications.
+
+Too many definition does't it, let's put it all together. Service is basically a lot of software artifacts that give a feature or set of them to the final user. We will define the service using an API and we will use REST architecture over HTTP protocol. To these services that implements the REST architecture we will called them as RESTful.
+
+Let's the game begin.. [REST](./rest.md)
 
 ## Second week: This is all about Persistence!
 
