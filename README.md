@@ -64,7 +64,11 @@ We will define API and implement them using REST. According stackoverflow:
 
 Too many definition does't it, let's put it all together. Service is basically a lot of software artifacts that give a feature or set of them to the final user. We will define the service using an API and we will use REST architecture over HTTP protocol. To these services that implements the REST architecture we will called them as RESTful.
 
-Let's the game begin.. [REST](./rest.md)
+Let's the game begin.. 
+
+<p align="center"><img src="./docs/img/saw_mask.png"></p>
+
+[REST](./rest.md)
 
 ## Second week: This is all about Persistence!
 
