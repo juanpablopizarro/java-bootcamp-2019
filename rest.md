@@ -33,3 +33,5 @@ And you can go directly with the online editor:
 Now let's the magic begin. In order to configure some automatic swagger 2 config we can follow this excellent article from baeldung:
 
 - [Swagger 2 - Baeldung Article](https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
+
+### Coding Time!

@@ -20,7 +20,7 @@ If you are not familiar with slack you can install and learn about it very quick
 
 So.. are you ready for a very focused and quick learning???
 
-![logo](./docs/img/java-logo.png)`java-logo`
+![logo](./docs/img/java-logo.png)
 
 ## Bootcamp Objective & Organization
 The main objective of this bootcamp is bring people from java and programming basis knowledge to backend development. To be a backend developer implies a lot of things a maybe years of expertise to reach a senior level but do not panic, we will just give you a quick and focused knowledge in order to write a REST API that expose a set of features to the world. This API will persists data in a database using an ORM and will expose API specs using a API documentation framework.
@@ -43,12 +43,12 @@ Our recommendations to be successful on this bootcamp are:
 ## About the Authors
 
 >Lius Sala Espiell
-Gonzalo San Martin
-[Juan Pablo Pizarro](https://www.linkedin.com/in/juanpablopizarro/)
+>Gonzalo San Martin
+>[Juan Pablo Pizarro](https://www.linkedin.com/in/juanpablopizarro/)
 
 
 ## First week: The Mission.. REST
-Grab a coffee cup and let's start!! ([pre requisites](./first-week-pre-requisites.md)
+Grab a coffee cup and let's start!! ([pre requisites](./first-week-pre-requisites.md))
 
 ### What a hell is a service and even worst.. an API!
 Service according to W3C:
