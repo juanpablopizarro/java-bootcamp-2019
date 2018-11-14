@@ -68,7 +68,7 @@ Let's the game begin..
 
 <p align="center"><img src="./docs/img/saw_mask.png"></p>
 
-[REST](./rest.md)
+[Playing with REST!!](./rest.md)
 
 ## Second week: This is all about Persistence!
 
