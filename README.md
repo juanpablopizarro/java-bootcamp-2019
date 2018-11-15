@@ -42,7 +42,7 @@ Our recommendations to be successful on this bootcamp are:
 
 ## About the Authors
 
->Lius Sala Espiell
+>Luis Sala Espiell
 
 >[Gonzalo San Martin](https://www.linkedin.com/in/gonsanmartin/)
 
