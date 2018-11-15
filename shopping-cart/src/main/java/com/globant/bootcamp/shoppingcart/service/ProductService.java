@@ -8,9 +8,9 @@ public interface ProductService {
 
 	public Product add(Product product);
 
-	public Product get(Long id);
+	public Product get(long id);
 
-	public void remove(Long id);
+	public void remove(long id);
 
 	public List<Product> getAll();
 
