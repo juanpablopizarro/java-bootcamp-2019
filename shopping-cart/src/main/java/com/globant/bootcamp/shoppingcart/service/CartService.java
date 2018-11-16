@@ -1,5 +1,8 @@
 package com.globant.bootcamp.shoppingcart.service;
 
+
+import java.util.List;
+
 import com.globant.bootcamp.shoppingcart.model.Cart;
 import com.globant.bootcamp.shoppingcart.model.Product;
 
@@ -7,12 +10,14 @@ public interface CartService {
 
 	public Cart addCart(Cart cart);
 
-	public Cart getCart(Long cartId);
+	public Cart getCart(long cartId);
 
-	public void removeCart(Long cartId);
+	public List<Cart> getCarts();
 
-	public Cart addProduct(Long cartId, Product product);
+	public void removeCart(long cartId);
 
-	public Cart removeProduct(Long cartId, Product product);
+	public Cart addProduct(long cartId, Product product);
+
+	public Cart removeProduct(long cartId, Product product);
 
 }

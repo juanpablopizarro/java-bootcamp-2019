@@ -1,39 +1,66 @@
 package com.globant.bootcamp.shoppingcart.service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
-
-import org.springframework.stereotype.Service;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 import com.globant.bootcamp.shoppingcart.model.Product;
+
+import org.springframework.stereotype.Service;
 
 @Service
 public class ProductServiceInMem implements ProductService {
 
 	private Map<Long, Product> products = new HashMap<>();
-	private Long sequence = 0L;
+	private AtomicLong sequence = new AtomicLong(0L);
+	private final ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 
-	public synchronized Product add(Product product) {
-		if (product.getId() == null) {
-			sequence++;
-			product.setId(sequence);
+	public Product add(Product product) {
+		if (product == null) {
+			throw new RuntimeException("product can't be null.");
 		}
-		products.put(sequence, product);
-		return product;
+
+		if (product.getId() == null) {
+			product.setId(sequence.incrementAndGet());
+		}
+
+		lock.writeLock().lock();
+		try {
+			products.put(product.getId(), product);
+			return product;
+		} finally {
+			lock.writeLock().unlock();
+		}
 	}
 
-	public synchronized Product get(Long id) {
-		return products.get(id);
+	public Product get(long id) {
+		lock.readLock().lock();
+		try {
+			return products.get(id);
+		} finally {
+			lock.readLock().unlock();
+		}
 	}
 
-	public synchronized void remove(Long id) {
-		products.remove(id);
+	public void remove(long id) {
+		lock.writeLock().lock();
+		try {
+			products.remove(id);
+		} finally {
+			lock.writeLock().unlock();
+		}
 	}
 
-	public synchronized List<Product> getAll() {
-		return products.values().stream().collect(Collectors.toList());
+	public List<Product> getAll() {
+		lock.readLock().lock();
+		try {
+			return new ArrayList<>(products.values());
+		} finally {
+			lock.readLock().unlock();
+		}
 	}
 
 }
