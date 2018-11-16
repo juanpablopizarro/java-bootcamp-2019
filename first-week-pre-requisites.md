@@ -27,3 +27,13 @@ Using Maven we will construct and package the jar file in order to execute our s
 - [Download](https://maven.apache.org/download.cgi)
 - [Install](https://maven.apache.org/install.html)
 - [Run](https://maven.apache.org/install.html)
+
+### GIT
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+- [Download for Mac](http://git-scm.com/download/mac)
+- [Download for Windows](http://msysgit.github.io/)
+- [Download for Windows](http://git-scm.com/book/en/Getting-Started-Installing-Git)
+
+We will use git to upload our code to github repo. Here you will find a cheatsheet that might help:
+[Git cheatsheet](http://rogerdudler.github.io/git-guide/index.html)
