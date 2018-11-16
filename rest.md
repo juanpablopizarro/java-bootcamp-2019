@@ -35,3 +35,6 @@ Now let's the magic begin. In order to configure some automatic swagger 2 config
 - [Swagger 2 - Baeldung Article](https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
 
 ### Coding Time!
+![coder](./docs/img/coder.gif)
+
+Let's set the objective first: "we want to create a REST API using actuator in order to manage shopping carts and products. DO NOT create a great shopping cart model, just make it simple. When you finish it, upload to some repo and share with us the repo. Important: we wont use any database to persist data, just add it to a in-memory repo.
