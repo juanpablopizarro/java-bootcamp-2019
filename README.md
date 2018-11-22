@@ -84,7 +84,7 @@ The previous definition is too broad. In java there are plenty of technologies t
 
 In this bootcamp we are going to focus on Relational databases, so let's get started..
 
-[Playing with Data Persistence!!](./persistence.md)
+[Playing with Data Persistence!!](./data.md)
 
 ## Third week: If you don't want to suffer.. best practices 
 
