@@ -25,6 +25,7 @@ We recommend on this bootcamp to use H2 or any other embedded database just for 
 - [HSQLDB official web page](http://hsqldb.org/)
 
 ### Coding Time!
-![coder](./docs/img/coder.gif)
+![coder](./docs/img/happy-coding.gif)
+
 
 Before adding persistence to our application we are going to extends a little bit our model. Until now we have Carts and Products. It would be great to have information about the users that are using our application. So we need to extends our shopping-cart application (rest API and data model) to be able to manage carts, products, and users. After that we need to add a persistence layer so all this information can be stored on a DB.
