@@ -72,6 +72,20 @@ Let's the game begin..
 
 ## Second week: This is all about Persistence!
 
+### So.. what does persistence mean ?
+According to Wikipedia:
+> In computer science, persistence refers to the characteristic of state that outlives the process that created it. This is achieved in practice by storing the state as data in computer data storage. Programs have to transfer data to and from storage devices and have to provide mappings from the native programming-language data structures to the storage device data structures.
+### How can this be achieved on Java ?
+The previous definition is too broad. In java there are plenty of technologies to achieve data persistence. We could classify most of them into two big categories: Relational Databases (SQ ) and Non-Relational Databases (NoSQL)
+
+- [Relational databases](https://en.wikipedia.org/wiki/Relational_database)
+
+- [Non relational databases](https://en.wikipedia.org/wiki/NoSQL)
+
+In this bootcamp we are going to focus on Relational databases, so let's get started..
+
+[Playing with Data Persistence!!](./persistence.md)
+
 ## Third week: If you don't want to suffer.. best practices 
 
 ## Some final words..
