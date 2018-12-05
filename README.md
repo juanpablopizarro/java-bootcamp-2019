@@ -1,3 +1,4 @@
+
 # Welcome to Java Bootcamp 2019!
 
 ## Introduction
@@ -50,7 +51,7 @@ Our recommendations to be successful on this bootcamp are:
 
 
 ## First week: The Mission.. REST
-Grab a coffee cup and let's start!! ([pre requisites](./first-week-pre-requisites.md))
+Grab a coffee cup and let's start!! ([pre requisites](./prerequisites.md))
 
 ### What a hell is a service and even worst.. an API!
 Service according to W3C:
@@ -87,6 +88,24 @@ In this bootcamp we are going to focus on Relational databases, so let's get sta
 [Playing with Data Persistence!!](./data.md)
 
 ## Third week: If you don't want to suffer.. best practices 
+
+Now is time to get sorted all the concepts and enclose in a quality framework. We will dive into some good practices and techniques in order to add quality and follow common patterns to create scalable, flexible and easy to follow software.
+
+In the enterprise level the good practices is a big deal because it save a lot of time solving common issues like logging and metrics. Spring and Spring Boot follows some good patterns and they are flexible to be extended. The last years micro services became very popular and almost every developer in the world hear about it but it doesn't mean that all the developers are architects or experts on micro services. If you researched about micro services you may note that in order to create and maintain a micro service architecture you need some extra things like to know about cloud computing, infrastructure and scalability. We will see a preview later just to get the dimension on the complexity in the real world.
+
+In a far away galaxy.. or not, we have new players like kubernetes and docker. Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. Having said that, we will focused on good practices in order to create software to run in modern solutions like docker and kubernetes on the cloud.
+
+Just for curiousness:
+- [Docker](https://www.docker.com/)
+- [Kubernetes](https://kubernetes.io/)
+
+**Disclaimer**: we will not cover Docker or Kubernetes, is just an example why we have to write using good practices.
+
+As always, to do things in the correct way will save a ton of headache.. so lets work with good practices from scratch.
+
+<p align="center"><img src="./docs/img/homer-implementation.png"></p>
+
+[Final Reading!](./goodpractices.md)
 
 ## Some final words..
 
