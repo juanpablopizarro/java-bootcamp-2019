@@ -67,7 +67,7 @@ Too many definition does't it, let's put it all together. Service is basically a
 
 Let's the game begin.. 
 
-<p align="center"><img src="./docs/img/saw_mask.png"></p>
+<p align="center"><img src="./docs/img/saw-mask.gif"></p>
 
 [Playing with REST!!](./rest.md)
 
@@ -103,7 +103,7 @@ Just for curiousness:
 
 As always, to do things in the correct way will save a ton of headache.. so lets work with good practices from scratch.
 
-<p align="center"><img src="./docs/img/seriously.gif"></p>
+<p align="center"><img src="./docs/img/homer-studing.gif"></p>
 
 [Final Reading!](./goodpractices.md)
 
