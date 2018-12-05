@@ -103,7 +103,7 @@ Just for curiousness:
 
 As always, to do things in the correct way will save a ton of headache.. so lets work with good practices from scratch.
 
-<p align="center"><img src="./docs/img/homer-implementation.png"></p>
+<p align="center"><img src="./docs/img/homer-implementation.gif"></p>
 
 [Final Reading!](./goodpractices.md)
 
