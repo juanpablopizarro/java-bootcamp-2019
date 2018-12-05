@@ -67,7 +67,7 @@ Too many definition does't it, let's put it all together. Service is basically a
 
 Let's the game begin.. 
 
-<p align="center"><img src="./docs/img/play-a-game.gif"></p>
+<p align="center"><img src="./docs/img/play-a-game.jpg"></p>
 
 [Playing with REST!!](./rest.md)
 
