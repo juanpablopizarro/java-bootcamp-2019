@@ -9,6 +9,7 @@ import com.globant.bootcamp.shoppingcart.model.Product;
 import com.globant.bootcamp.shoppingcart.service.ProductServiceInMem;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,9 +26,9 @@ public class ProductController {
 	private ProductServiceInMem products;
 
 	@PostMapping("/products")
-	public ProductDto addProduct(@RequestBody ProductDto product) {
+	public ResponseEntity<ProductDto> addProduct(@RequestBody ProductDto product) {
 		Product newProduct = products.add(Mapper.convert(product));
-		return Mapper.convert(newProduct);
+		return ResponseEntity.created(null).body(Mapper.convert(newProduct));
 	}
 
 	@GetMapping("/products/{product_id}")
