@@ -111,3 +111,9 @@ As always, to do things in the correct way will save a ton of headache.. so lets
 
 ## Some final words..
 
+In the last weeks we have seen how to develop a simple web application with some of the most commonly used technologies nowadays, but this is just the beginning. During your career path you will face many different languages/technologies that you will have to learn and to apply. 
+
+Also as technology continues to grow by leaps and bounds, the software development is scaling right along with it and new trends appear like Artificial Intelligence (AI), Blockchain Technology, etc..
+
+So our big advice is to keep learning and keep your skills sharp!
+
