@@ -105,7 +105,7 @@ Just for curiousness:
 
 As always, to do things in the correct way will save a ton of headache.. so lets work with good practices from scratch.
 
-<p align="center"><img src="./docs/img/studying.gif" style="width:200px;height:160px;"></p>
+<p align="center"><img src="./docs/img/studying.gif"></p>
 
 [Final Reading!](./goodpractices.md)
 
